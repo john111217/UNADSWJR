@@ -1,0 +1,57 @@
+nav, header, .contenedor, footer{
+    max-width: 90%;
+    margin: auto;
+  
+}
+
+nav{
+    background-color: dodgerblue;
+}
+header{
+    background-color: white;
+}
+.contenedor{
+    background-color: dodgerblue;
+}
+.central{
+    background-color:darkblue;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
+    background-color: dodgerblue;
+}
+aside{
+    background-color:darkblue;
+    display: inline-block;
+    max-width: 34%;
+    vertical-align: top;
+}
+/* Menu*/
+.menu li{
+    display:inline-block ;
+}
+li a, boton{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.8em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: ghostwhite;
+    position: absolute;
+
+}
+.listaDesplegable a{
+    color: black;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDesplegable{
+    display: block;
+}
+li a:hover{
+    background-color: red;
+}
