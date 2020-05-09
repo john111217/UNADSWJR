@@ -1,5 +1,7 @@
 
-
+body{
+    color: white;
+}
 
 nav, header, .contenedor, footer{
     max-width: 90%;
